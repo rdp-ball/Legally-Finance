@@ -1,0 +1,14 @@
+financial-analysis-chatbot/
+│
+├── data/                # Folder for storing raw and processed financial data
+├── models/              # Pre-trained or fine-tuned models
+├── notebooks/           # Jupyter notebooks for experiments and testing
+├── src/                 # Source code for the application
+│   ├── backend/         # Flask or FastAPI backend implementation
+│   ├── frontend/        # Streamlit frontend implementation
+│   ├── utils/           # Utility functions and helpers
+│   └── ...
+├── tests/               # Unit and integration tests
+├── requirements.txt     # List of dependencies
+├── README.md            # Project documentation
+└── .env                 # Environment variables (not in version control)
