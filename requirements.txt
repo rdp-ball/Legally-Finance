@@ -1,0 +1,8 @@
+llama-index==0.10.17
+fastembed
+llama-index-embeddings-fastembed
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+llama-index-readers-web
+pypdf2
+python-dotenv
