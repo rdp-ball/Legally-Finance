@@ -10,7 +10,7 @@ import re
 
 # Configure Google Gemini
 Settings.embed_model = FastEmbedEmbedding(model_name="BAAI/bge-small-en-v1.5")
-Settings.llm = Gemini(api_key=os.getenv("GOOGLE_API_KEY"), temperature=0.1, model_name="models/gemini-pro")
+Settings.llm = Gemini(api_key=os.getenv("GOOGLE_API_KEY"), temperature=0.5, model_name="models/gemini-pro")
 
 def write_to_file(content, filename="./files/uploaded.pdf"):
     os.makedirs(os.path.dirname(filename), exist_ok=True)
